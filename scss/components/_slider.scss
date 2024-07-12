@@ -43,7 +43,7 @@
                 &:hover{
                     color: $main-color--beige;
                     img{
-                        transform: scale(1.05);
+                        // transform: scale(1.05);
                         opacity: 1;
                     }
                 }
@@ -141,11 +141,10 @@
         }
     }
     // 施工例用 > スライダー
-    &.swiper-Build,
+    &.swiper-Popup,
     &.swiper-Video{
         width: 100%;
         height: 100%;
-        // position: inherit;
         .swiper-slide{
             transform: scale(.8);
             img{
