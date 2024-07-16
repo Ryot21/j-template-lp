@@ -143,6 +143,16 @@
         <!-- コンテンツ > #05 -->
         <div id="05" class="c-contents pd10 mgb10 mgb20s"></div><!-- // #05 -->
 
+
+        <!-- 周辺環境画像 + 拡大 > サンプル -->
+        <!-- .imgBoxクラス内のimageとmyCanvasに設定しているimagesの大きさを同じにして下さい。 -->
+        <div class="c-contents-inner w1100 mgb10 mgb20s">
+            <div id="canvasContainer" class="c-contents -imgBg">
+                <div class="imgBox"><img src="images/item/sample/location-map_bg.png" alt="MAP"></div><!-- imgタグの表示幅を取得 -->
+                <div class="c-contentsBox -center"><canvas id="myCanvas" width="" height=""></canvas></div>
+            </div>
+        </div>
+
         <!-- スライダー + popup > サンプル -->
         <!-- <div class="swiper swiper-Popup">
             <ul class="swiper-wrapper">
@@ -344,6 +354,8 @@
         if( luminousTrigger !== null ) {
             new LuminousGallery(luminousTrigger,{},options);
         }
-</script>
+    </script>
+    <script src="js/imagesMouseScale.js" ></script><!-- 画像の拡大縮小 -->
+
 </body>
 </html>

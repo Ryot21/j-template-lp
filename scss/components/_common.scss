@@ -2,7 +2,7 @@
 
 // 横幅
 .w1100{
-    width: 100%;
+    width: 90%;
     margin: auto;
     @include min(1100){
         width: 90% !important;
